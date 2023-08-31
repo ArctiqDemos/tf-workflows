@@ -6,7 +6,7 @@ resource "aws_instance" "default" {
   security_groups = ["default"]
 
   tags = {
-    Name        = "${var.environment}-instance"
+    Name        = "${var.environment}-ec2-instance"
     environment = var.environment
     provider    = var.deployer
   }
