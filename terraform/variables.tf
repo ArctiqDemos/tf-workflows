@@ -7,6 +7,3 @@ variable "environment" {
 variable "deployer" {
   description = "Deployment Provider"
 }
-variable "count" {
-  description = "Number of VMs"
-}
