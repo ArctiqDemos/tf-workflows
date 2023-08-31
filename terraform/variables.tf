@@ -4,6 +4,6 @@ variable "region" {
 variable "environment" {
   description = "Deployment Environment"
 }
-variable "provider" {
+variable "deployer" {
   description = "Deployment Provider"
 }

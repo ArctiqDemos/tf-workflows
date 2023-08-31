@@ -8,6 +8,6 @@ resource "aws_instance" "default" {
   tags = {
     Name        = "${var.environment}-instance"
     environment = var.environment
-    provider    = var.provider
+    provider    = var.deployer
   }
 }
