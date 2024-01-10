@@ -2,6 +2,10 @@
 name: TFC Plan
 
 on:
+  push:
+    paths:
+      # Replace with your directory, relative to the root of the project
+      - 'terraform/**.tf'
   pull_request:
     branches:
       - main
